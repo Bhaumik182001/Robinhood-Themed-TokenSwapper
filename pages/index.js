@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { BiDotsHorizontalRounded } from 'react-icons/bi'
 import { AiOutlinePlus } from "react-icons/ai";
 import { Header } from '../components/Header';
@@ -39,7 +40,11 @@ export default function Home({coins}) {
   
   return (
     <div className={styles.wrapper}>
-      <Header />
+        <Head>
+        <title>Robinhood Trader</title>
+        <link rel="icon" href="https://w7.pngwing.com/pngs/547/1008/png-transparent-robinhood-hd-logo-thumbnail.png" />
+      </Head>
+        <Header />
       <div className={styles.mainContainer}>
         <div className={styles.leftMain}>
 
