@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Robinhood Dapp (Decentralized App)
 
-## Getting Started
+**Live Demo**: [Robinhood Dapp](https://robinhood-blockchain-dapp.netlify.app)
 
-First, run the development server:
+A Robinhood-inspired decentralized app that allows users to swap and trade custom asset tokens. The dapp is built using Next.js, React, and a variety of blockchain technologies.
 
-```bash
-npm run dev
-#    or
-yarn      dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Table of Contents
 
-## Learn More
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Live Demo
 
-## Deploy on Vercel
+Check out the live demo: [Robinhood Dapp](https://robinhood-blockchain-dapp.netlify.app).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features
+
+- **Token Swapping**: Easily swap or trade coins within the app.
+- **Real-Time Data**: Sidebar to keep track of cryptocurrencies' performance through real-time API.
+- **Transaction Verification**: View and confirm transactions through Etherscan or QR code.
+- **MetaMask Integration**: View the balance of the connected MetaMask wallet.
+
+---
+
+## Technologies
+
+- **Next.js and React**: For frontend development.
+- **Solidity**: For creating smart contracts.
+- **OpenZeppelin**: For ERC20 standard-compliance.
+- **Hardhat**: For compiling and deploying smart contracts.
+- **Moralis**: For user authentication and interaction with smart contracts.
+- **Sanity**: For storing user information and transactions.
+- **React Context API**: For state management.
+- **Chart and Line**: For visual presentation of crypto performance.
+- **CoinRankingAPI**: For real-time data retrieval.
+
+---
+
+## Installation
+
+To set up the project locally:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/robinhood-dapp.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd robinhood-dapp
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## Usage
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to explore the app.
